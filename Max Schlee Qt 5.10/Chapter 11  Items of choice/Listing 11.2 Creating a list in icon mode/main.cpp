@@ -30,6 +30,7 @@ int main(int argc, char** argv)
 
     }
    lwg.setFlow(QListView::TopToBottom);
+    lwg.sortItems(Qt::AscendingOrder);
     lwg.resize(150, 150);
     lwg.show();
 
