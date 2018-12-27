@@ -29,6 +29,7 @@ int main(int argc, char** argv)
                         Qt::ItemIsEditable | Qt::ItemIsDragEnabled);
 
     }
+   lwg.setFlow(QListView::TopToBottom);
     lwg.resize(150, 150);
     lwg.show();
 
