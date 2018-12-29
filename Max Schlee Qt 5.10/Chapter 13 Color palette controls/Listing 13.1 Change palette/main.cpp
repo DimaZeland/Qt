@@ -31,3 +31,11 @@ int main(int argc, char** argv)
 
     return app.exec();
 }
+
+/* Setting the palette for the entire application
+int main (int argc, char** argv){
+QApplication app(argc, argv);
+QPalette pal(Qt::red, Qt::blue);
+QApplication::setPalette(pal);
+}
+*/
